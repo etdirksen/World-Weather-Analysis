@@ -11,6 +11,8 @@ We first gathered weather data using the OpenWeather Database. We randomly gener
 - cloudiness %, 
 - and windspeed. 
 
+![Code Example 1](Resources/code_example1.png)
+
 Then, we were able to use the Pandas package to make dataframes that housed this data and then clean the data of any rows that did not contain values. For our job, we were able to make scatter-plots of this data to find trends between the latitude coordinates and humidity, cloudiness, temperatures, etc. Later, we used a few of the Google Maps Platform APIs which allowed us to make heatmap layers showcasing some of this data, generate a layer to plot points on a map of where the cities were located, as well as make small cards of information using HTML that would show when you click on one of the plotted cities. That lead us to the challenge - adding another layer of depth to the PlanMyTrip app, _which gives the user a round trip, visual and interative itinerary_. 
 
 We created an app called __PlanMyTrip__. 
@@ -21,3 +23,7 @@ Here is how the app works:
 3. a table of cities and their weather data will be generated matching those temperature conditions,
 4. the user can choose from 4 cities - in driving, cycling, or walking proximity - and specify which cities are the starting point, ending point, and stopping points,
 5. the app will generate a specific route to take through the cities and return to the start point.
+
+![Vacation Route](Vacation_Itinerary/WeatherPy_travel_map.png)
+
+![Vacation Markers](Vacation_Itinerary/WeatherPy_travel_map_markers.png)
