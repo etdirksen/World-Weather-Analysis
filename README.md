@@ -1,4 +1,4 @@
-# Module 6, Challenge: Creating a weather database and a trip itinerary using APIs
+# Challenge 6, Deliverable 3: Creating a weather database and a trip itinerary using APIs
 ## Purpose & Background
 Throughout Module 6, we learned how to make API calls through the [OpenWeather Database](https://openweathermap.org/) and through the [Google Maps Platform](https://mapsplatform.google.com/). We learned to make these calls for our "job" and to help out a friend and coworker at this job, Jack, to create a database of recent (current at the time of running the program) weather data, and from there make API calls to create graphs of weather data trends, map plot-points, and create a visual traveling itinerary. 
 
